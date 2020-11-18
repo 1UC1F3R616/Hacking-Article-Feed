@@ -17,4 +17,5 @@ def run_bot():
 if __name__ == '__main__':
     while True:
         run_bot()
-        sleep(1*60*60*6) # every 6 hours
+        #sleep(1*60*60*6) # every 6 hours
+        sleep(120) # testing
