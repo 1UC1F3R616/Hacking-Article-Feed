@@ -129,4 +129,4 @@ dmypy.json
 
 .idea
 
-aws_packaging/
+# aws_packaging/
