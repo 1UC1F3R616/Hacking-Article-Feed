@@ -8,6 +8,8 @@ Articles to be fetched won't be crossing 1 page in what I am implementing
 # imports
 import os
 import datetime
+
+# external imports
 from pymongo import MongoClient
 from bs4 import BeautifulSoup as soup
 import requests
@@ -66,7 +68,6 @@ def result(API_KEY, CHAT_ID):
                     "date": datetime.datetime.utcnow()
                 })
 
-                #message = '{}\n\n{}\n\n{}'.format('bugbytes Archives - Intigriti', article[0].replace('/', '%2F'), article[1].replace('/', '%2F'))
                 message = article[1].replace('/', '%2F')
                 print(send_message(API_KEY, CHAT_ID, message))
 

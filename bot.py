@@ -2,7 +2,7 @@ import os
 from time import sleep
 
 # SECRETS
-CHAT_ID =  os.getenv('CHAT_ID')
+CHAT_ID = os.getenv('CHAT_ID')
 API_KEY = os.getenv('API_KEY')
 
 # scraper import
@@ -17,5 +17,4 @@ def run_bot():
 if __name__ == '__main__':
     while True:
         run_bot()
-        #sleep(1*60*60*6) # every 6 hours
-        sleep(120) # testing
+        sleep(1*60*60*6) # every 6 hours
