@@ -19,3 +19,5 @@ This is how I came to this idea of HackerByte Telegram Bot and use it as a notif
   <img src="https://www.vectorlogo.zone/logos/telegram/telegram-tile.svg" width="35" alt="https://t.me/HackerByteHere">
   </a>
 </p>
+
+Link to Blog Post [here](https://1uc1f3r616.github.io/project/security-blogs/)
